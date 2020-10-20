@@ -51,5 +51,30 @@
   },
   "window.zoomLevel": 0,
   "diffEditor.ignoreTrimWhitespace": false,
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "fileheader.configObj": {
+    // 可以在本文档搜索配置查看相关介绍
+    "designAddHead": true, // 默认关闭, 生成的图案注释是否附带头部注释
+    "headDesignName": "random" // 默认为随机图案 生成哪个注释图案
+    // 'random',  随机
+    // 'buddhalImg',  佛祖
+    // 'buddhalImgSay',  佛祖+佛曰
+    // 'buddhalSay',  佛曰
+    // 'totemDragon',  龙图腾
+    // 'belle',  美女
+    // 'coderSong',  程序员之歌
+    // 'loitumaGirl',  甩葱少女
+    // 'keyboardAll',  全键盘
+    // 'keyboardSmall',  小键盘
+    // 'totemWestDragon',  喷火龙
+    // 'jesus',  耶稣
+    // 'dog',  狗
+    // 'grassHorse',  草泥马
+    // 'grassHorse2',  草泥马2
+    // 'totemBat',  蝙蝠
+  }
 }
